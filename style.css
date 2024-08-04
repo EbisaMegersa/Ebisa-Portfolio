@@ -143,7 +143,7 @@ header{
   text-decoration: underline;
 }
 .about{
-  height: 400px;
+  height: 500px;
 }
 ::-webkit-scrollbar {
   width: 10px;
@@ -165,7 +165,7 @@ header{
 }
 .aborder{
   border: 1px solid red;
-  height: 250px;
+  height: 350px;
 }
 .adiv{
   margin-top: 20px;
