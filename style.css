@@ -1,0 +1,243 @@
+*{
+  margin: 0;
+}
+body{
+  margin: 0;
+  font-family: serif;
+}
+header{
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  background: transparent;
+  z-index: 10px;
+  background-color: black;
+  padding: 15px;
+}
+.logo a{
+  font-size: 25px;
+  position: relative;
+  text-decoration: none;
+  color: white;
+  cursor: none;
+  transition: 0.3s ease-in-out;
+}
+.logo a:hover{
+  color: red;
+  text-shadow: 0 0 10px red;
+}
+.navlist{
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+.navlist a{
+  margin: 0 7px;
+  text-decoration: none;
+  color: white;
+  cursor: none;
+  transition: 0.3s;
+}
+.navlist a:hover{
+  color: red;
+  border-bottom: 3px solid;
+}
+.active{
+  border-bottom: 3px solid red;
+}
+.logoe{
+  color: red;
+}
+.home{
+  margin: 10px 7px;
+  margin-left: 30px; 
+  margin-top: 250px;
+}
+.home1{
+  color: red;
+  transition: transform 0.3s;
+}
+.home1:hover{
+  text-shadow: 0 0 20px red;
+}
+.hh{
+  margin-left: 29px;
+  transition: transform 0.3s;
+}
+.hh:hover{
+  color: red;
+  transform: translateX(-20px)
+}
+.home{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ebi{
+  border-radius: 100%;
+  margin-left: 0px ;
+  filter: blur(7px); 
+  transition: transform 0.3s;
+  border: 1.5px solid red;
+  box-shadow: 0 0 10px red;
+}
+.ebi:hover{
+  filter: blur(0px);
+  transform: translateY(-10px);
+}
+.project{
+  margin-top: 100px;
+  margin-left: 0px;
+  background-color: black;
+  height: 500px;
+}
+.h1p{
+  color: red;
+  margin-left: 95px;
+  padding: 55px;
+  transition: transform 0.3s ease-in-out;
+}
+.h1p:hover{
+  text-shadow: 0 0 10px red;
+  transform: translateY(-20px)
+}
+.hiremebtn{
+  margin-top: 20px;
+  margin-left: 30px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border-style: none;
+  background-color: red;
+  transition: transform 0.2s ease-in-out;
+}
+.hiremebtn a{
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  cursor: none;
+}
+.hiremebtn:hover{
+  transform: scale(1.11);
+  box-shadow: 0 0 10px red;
+}
+.imga{
+  justify-content: space-between;
+  padding:  20px;
+  margin: 0px 0px 15px 40px;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 10px;
+  border: 1px solid red;
+  transition: transform 0.3s ease-in-out;
+}
+.imga:hover{
+  transform: scale(1.1)
+}
+.abp{
+  color: white;
+  padding: 20px;
+  text-align: left;
+  margin-left: 22px;
+}
+.abp:hover{
+  text-decoration: underline;
+}
+.about{
+  height: 400px;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+.h1a{
+  color: red;
+  margin-top: 40px;
+  text-align: left;
+  padding: 25px;
+  transition: transform 0.3s ease-in-out;
+}
+.h1a:hover{
+  text-shadow: 0 0 10px red;
+  transform: translateY(-20px)
+}
+.p1a{
+  margin-top: 20px;
+  padding-left: 20px ;
+}
+.aborder{
+  border: 1px solid red;
+  height: 200px;
+}
+.adiv{
+  margin-top: 20px;
+  text-align: left;
+  padding: 20px;
+  display: row;
+}
+.ppp{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.ppp a{
+  color: red;
+  text-decoration: none;
+}
+.contact{
+  background-color: skyblue;
+  padding: 20px;
+  text-align: left;
+}
+.former{
+  text-align: center;
+}
+input{
+  border: 1px solid red;
+  border-style: none;
+  border-radius: 7px;
+  padding: 5px;
+  transition: transform 0.3s ease-in-out;
+}
+input:hover{
+  transform: translateX(-15px )
+}
+label{
+  color: black;
+}
+textarea{
+  padding: 40px;
+  border-style: none;
+  border: 1px solid red;
+  border-radius: 7px;
+  transition: transform 0.3s ease-in-out;
+}
+textarea:hover{
+  transform: translateX(-15px )
+}
+.sendbtn{
+  padding: 8px 15px;
+  margin-top: 10px;
+  border-radius: 15px;
+  border-style: none;
+  background-color: red;
+  color: white;
+  transition: transform 0.3s ease-in-out;
+}
+.sendbtn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px red;
+}
+.cont{
+  color: red;
+  margin-top: 0px;
+  padding: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+.cont:hover{
+  text-shadow: 0 0 10px red;
+  transform: translateY(-20px)
+}
+footer{
+  background-color: black;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
